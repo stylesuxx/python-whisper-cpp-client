@@ -15,10 +15,10 @@ pip install whisper-cpp-client
 To use the Whisper CPP client, you can import the `WhisperClient` class from the `whisper_cpp_client` module:
 
 ```python
-from whisper_cpp_client import WhisperClient
+from whisper_cpp_client import WhisperCppClient
 import json
 
-client = WhisperClient("localhost", 3333)
+client = WhisperCppClient("localhost", 3333)
 
 try:
     response_content = client.transcribe("path/to/audio/file.wav")
@@ -71,7 +71,7 @@ params = {
   'suppress_nst':False
 }
 
-client = WhisperClient("localhost", 3333)
+client = WhisperCppClient("localhost", 3333)
 client.set_params(params)
 ```
 
