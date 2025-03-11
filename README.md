@@ -1,5 +1,5 @@
-# Whisper CPP Client
-A small, lightweight client for the [Whisper.cpp server]().
+# Whisper CPP Client in Python
+A small, lightweight python client for the [Whisper.cpp server](https://github.com/ggerganov/whisper.cpp).
 
 
 ## Prerequisites
