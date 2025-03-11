@@ -1,0 +1,10 @@
+__pycache__
+ignored/
+*.sh
+dist
+src/whisper_cpp_client.egg-info
+lib
+lib64
+bin
+include
+pyvenv.cfg
